@@ -1,8 +1,8 @@
 ### Overview
 
-This repository contains AFL++ and Magma in the AFLplusplus and magma directories (respectively). When the aflplusplus fuzzer is specified in Magma’s configrc, Magma will pull from the AFL++ in AFLplusplus. This functionality is available on main branch, while other branches contain various features and modifications. 
+Implementations of selective coverage feedback suppression strategies built on AFL++. Contains two approaches: a stochastic method (LCF-S) that probabilistically suppresses coverage feedback on individual executions, and a temporal method (LCF-T) that disables feedback after a predefined point in time. 
 
-This repository contains implementations of selective coverage feedback suppression strategies built on AFL++, exploring whether full coverage guidance is necessary throughout an entire fuzzing campaign. We implement and evaluate two approaches: a stochastic method (LCF-S) that probabilistically suppresses coverage feedback on individual executions, and a temporal method (LCF-T) that disables feedback after a predefined point in time. 
+Contains AFL++ and Magma in the AFLplusplus and magma directories (respectively). When the aflplusplus fuzzer is specified in Magma’s configrc, Magma will pull from the AFL++ in AFLplusplus. This functionality is available on main branch, while other branches contain various features and modifications. 
 
 #####  The code includes:
 
