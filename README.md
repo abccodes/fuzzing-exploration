@@ -18,6 +18,7 @@ This repository contains implementations of selective coverage feedback suppress
 
 - MAGMA evaluation setup
 
+### System Overview
 ![Fuzzing Diagram](fuzzingdiagram.png "Fuzzing Diagram")
 
 ### Running
