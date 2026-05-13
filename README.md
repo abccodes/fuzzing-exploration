@@ -18,9 +18,6 @@ Contains AFL++ and Magma in the AFLplusplus and magma directories (respectively)
 
 - MAGMA evaluation setup
 
-### System Overview
-![Fuzzing Diagram](fuzzingdiagram.png "Fuzzing Diagram")
-
 ### Running
 
 Running either LCF-T or LCF-S in the aforementioned branches will require additional configuration. To toggle LCF-S while running interactively, one must use the `-F` option in the command that begins AFL++, and include an argument in the range p ∈ [0,100] representing the percentage of seeds which receive coverage feedback. To configure this while running Magma, the variable `FUZZ_PCT` may be added to the configrc with value p.
